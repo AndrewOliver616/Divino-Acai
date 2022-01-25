@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- DOCTYPE informa ao navegador que se trata de uma documento HTML-->
+
+<html lang="pt-BR"> <!-- html lang="pt-BR" informa ao navegador que se trata de uma documento HTML em portugês brasileiro-->
+
+    <head> <!-- "head" informa ao navegador quais as informações da página como título, dicionário e indica o caminho CSS para estilos-->
+        <title>Divino Açaí - Nawa Sorvetes</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <div>
+        <header> <!-- Tag para o cabeçalho da página -->
+            <h1 class="titulo-principal">Divino Açaí</h1>
+        </header>
+    </div>
+ 
+<!-- "P" é o parágrafo, STRONG deixa o texto em negrito, em dá ênfase ao texto, OBS: para ajudar a encontrar o componente que será estilizado no CSS pode unir dois elementos identicadores; EX: "em strong" + a edição desejada -->
+
+    <body>  <!-- "body" é onde ficam todas informações que são visíveis na página, ou seja, aquilo de que de fato é lido-->
+
+        <img id="banner" src="banner.jpg"> <!-- adiciona uma imagem,o ID é o codigo para edição do arquivo no CSS, referência a esse identificador no CSS # + o nome da tag que será estilizada-->
+
+            <div class="principal"> <!-- essa tag divide os conteúdos em blocos, pode ser utilizada em cada área que se fizer necessário-->
+                <h2 class="titulo-centralizado">O Divino Açaí</h2> 
+
+                <p>Localizado no bairro de Água Fria, zona norte do Recife <strong>o Divino Açaí</strong> traz para o mercado o que há de melhor para o seu paladar. 
+                Todos os nossos cremes e sorvetes são produzidos em máquinas industriais garantindo o menor contato manual possível e garantindo um produto mais confiável, cremoso e livre de cristais de gelo.</p>
+            
+                <p id="missao"> <em>Nossa missão é: <strong>"Trazer mais sabor e refrescância para Divinar o seu dia."</strong></em>
+                </p>
+
+                <p>Oferecemos oferecemos os mais diversos produtos e sabores para te encantar. 
+                O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </div>
+
+            <div class="beneficios">
+                <h3 class="titulo-centralizado">Benefícios</h3>
+
+                        <!-- Para editar mais de uma item ao mesmo tempo sem que outros sejam alterados no decorre do código, não utilizamos ID nem os Marcadores que identificam onde será estilizado, utilizados uma CLASSE para que os itens marcados com essa classe sejam alterados no CSS, exemplo no código abaixo -->
+                <ul> 
+                    <li class="itens">Atendimento Diferenciado</li>
+                    <li class="itens">Ótima Localização</li>
+                    <li class="itens">Variadade de produtos e sabores</li>
+                    <li class="itens">Profissionais Qualificados</li>
+                </ul>
+                <img src="beneficios.jpg" class="imagembeneficios">
+            </div>
+    </body>
+    
+    </html>
