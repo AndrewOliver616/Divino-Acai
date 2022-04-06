@@ -3,7 +3,7 @@ body{
 }
 
 header {
-    background: #6A5ACD;
+    background: #5aaccd;
     padding: 20px 0;
 }
 
@@ -11,7 +11,7 @@ header {
     position: relative;
     width: 940px;
     margin: 0 auto;
-    background:#6A5ACD;
+    background:#48D1CC;
 }
 
 h1 img{
@@ -51,7 +51,7 @@ nav a:hover{
 .produtos li{
 	display: inline-block;
 	text-align: center;
-	width: 30%;7
+	width: 30%;
 	vertical-align: top;
 	font-weight: bold;
 	margin: 0 1,5%;
@@ -101,9 +101,6 @@ footer img{
 	font-size: 25px;
 }
 
-main{
-	
-}
 
 form{
 	margin: 40px 0;
